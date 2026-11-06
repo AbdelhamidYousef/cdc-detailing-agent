@@ -22,7 +22,7 @@
     { id: "fleet", label: "Fleet", hint: "Business vehicles" },
   ];
   const VEHICLES = [
-    { id: "car", label: "Car / sedan" },
+    { id: "car", label: "Car" },
     { id: "truck", label: "Truck" },
     { id: "suv", label: "SUV" },
   ];
@@ -38,7 +38,8 @@
   }
   * { box-sizing:border-box; }
   .card { background:var(--bg); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; }
-  header { padding:16px 16px 4px; }
+  header { padding:16px 16px 8px; }
+  .seg .tile { white-space:nowrap; }
   h2 { font-size:17px; margin:0; }
   .sub { color:var(--muted); font-size:13px; margin:2px 0 0; }
   fieldset { border:0; margin:0; padding:12px 16px 4px; min-width:0; }
