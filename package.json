@@ -1,0 +1,9 @@
+{
+  "name": "cdc-detailing-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Quote + availability API and a quote-card web component for an Agentplace agent (CDC Detailing, Pitman NJ)",
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" }
+}
